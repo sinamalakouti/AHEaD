@@ -10,13 +10,18 @@
   <meta name="keywords" content="Cross Cultural Generation, Text-to-Image Models, Cultural Faithfullness, Image Text Alignment, Visual Descriptors">
   <meta name="author" content="Sina Malakouti, Boqing Gong, Adriana Kovashka">
 
-  <title>PAPER_TITLE - Sina Malakouti, Boqing Gong, Adriana Kovashka | Culture in Action</title>
+  <title> Culture in Action: Evaluating Text-to-Image Models through Social Activities - Sina Malakouti, Boqing Gong, Adriana Kovashka </title>
 
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
 
   <!-- CSS -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+
 
   <!-- COMMENTED: not needed since no carousel -->
   <!--
@@ -55,13 +60,13 @@ Culture in Action: Evaluating Text-to-Image Models through Social Activities
 
 <div class="is-size-5 publication-authors">
 <span class="author-block">
-<a href="#">Sina Malakouti</a>,
+<a href="https://sinamalakouti.github.io">Sina Malakouti</a>,
 </span>
 <span class="author-block">
-<a href="#">Boqing Gong</a>,
+<a href="https://boqinggong.github.io/">Boqing Gong</a>,
 </span>
 <span class="author-block">
-<a href="#">Adriana Kovashka</a>
+<a href="https://people.cs.pitt.edu/~kovashka/">Adriana Kovashka</a>
 </span>
 </div>
 
@@ -75,7 +80,7 @@ The Fourteenth International Conference on Learning Representations (ICLR), 2026
 <div class="column has-text-centered">
 <div class="publication-links">
 
-<!-- KEEP CODE BUTTON -->
+
 <span class="link-block">
 <a href="https://github.com/sinamalakouti/AHEaD" target="_blank"
 class="external-link button is-normal is-rounded is-dark">
@@ -84,8 +89,7 @@ class="external-link button is-normal is-rounded is-dark">
 </a>
 </span>
 
-<!-- COMMENTED: paper pdf -->
-<!--
+
 <span class="link-block">
 <a href="https://arxiv.org/abs/2511.05681" target="_blank"
 class="external-link button is-normal is-rounded is-dark">
@@ -93,10 +97,7 @@ class="external-link button is-normal is-rounded is-dark">
 <span>Paper</span>
 </a>
 </span>
--->
 
-<!-- COMMENTED: arxiv -->
-<!--
 <span class="link-block">
 <a href="https://arxiv.org/abs/2511.05681" target="_blank"
 class="external-link button is-normal is-rounded is-dark">
@@ -104,7 +105,7 @@ class="external-link button is-normal is-rounded is-dark">
 <span>arXiv</span>
 </a>
 </span>
--->
+  
 
 </div>
 </div>
@@ -125,7 +126,7 @@ class="external-link button is-normal is-rounded is-dark">
 
 <div class="content has-text-justified">
 <p>
-Cultural nuances are best captured through social interactions, yet current text-to-image (T2I) benchmarks focus largely on object-centric artifacts (e.g., food, landmarks, and attire). In this work, we study the cultural faithfulness of T2I models through social activities. We introduce CULTIVate and AHEaD to evaluate cultural alignment, hallucination, exaggeration, and diversity.
+  Cultural nuances are best captured through social interactions, yet current text-to-image (T2I) benchmarks focus largely on object-centric artifacts (e.g., food, landmarks, and attire). In this work, we study the cultural faithfulness of T2I models (i.e., adherence to the target culture) through social activities. To this end, we introduce CULTIVate, a new benchmark of 576 activities across 9 categories (e.g., dancing, greeting, dining) with over 19,000 images from 16 countries. We further propose AHEaD, an explainable framework that measures cultural under- standing along four dimensions: cultural Alignment, Hallucination, Exaggeration, and semantical Diversity. Unlike prior work relying on costly human evaluation or image-text alignment (ITA), AHEaD uses culturally-grounded descriptors to provide quantitative, interpretable feedback that enables iterative image refinement. Our analysis shows ITA metrics correlate poorly with human judgments and that alignment alone is insufficient to capture faithfulness. In contrast, FAITH achieves 27%+ higher correlation than baselines by combining alignment, hallucination, and exaggeration. Finally, we observe systematic disparities, with generated images being consistently more faithful for Global North than Global South cultures.
 </p>
 </div>
 
