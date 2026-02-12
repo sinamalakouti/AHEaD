@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Culture in Action: Evaluating Text-to-Image Models through Social Activities</title>
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Culture in Action: Evaluating Text-to-Image Models through Social Activities - Sina Malakouti, Boqing Gong, Adriana Kovashka">
+  <meta name="description" content="Proposing 4 metrics AHEaD (Alignment, Hallucination, Exaggeration, and Diversity) for evaluating cultural faithfullness in T2I models">
+  <meta name="keywords" content="Cross Cultural Generation, Text-to-Image Models, Cultural Faithfullness, Image Text Alignment, Visual Descriptors">
+  <meta name="author" content="Sina Malakouti, Boqing Gong, Adriana Kovashka">
 
-<!-- CSS -->
-<link rel="stylesheet" href="static/css/bulma.min.css">
-<link rel="stylesheet" href="static/css/index.css">
+  <title>PAPER_TITLE - Sina Malakouti, Boqing Gong, Adriana Kovashka | Culture in Action</title>
 
-<!-- COMMENTED: not needed since no carousel/videos -->
-<!--
-<link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
--->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
 
-<link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
 
-<!-- JS -->
-<script defer src="static/js/fontawesome.all.min.js"></script>
+  <!-- COMMENTED: not needed since no carousel -->
+  <!--
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  -->
 
-<!-- COMMENTED: not needed -->
-<!--
-<script defer src="static/js/bulma-carousel.min.js"></script>
-<script defer src="static/js/bulma-slider.min.js"></script>
--->
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
 
-<script defer src="static/js/index.js"></script>
+  <!-- JS -->
+  <script defer src="static/js/fontawesome.all.min.js"></script>
 
+  <!-- COMMENTED: not needed -->
+  <!--
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  -->
+
+  <script defer src="static/js/index.js"></script>
 </head>
 
 <body>
 
 <main id="main-content">
 
-<!-- TITLE -->
+<!-- HERO -->
 <section class="hero">
 <div class="hero-body">
 <div class="container is-max-desktop">
@@ -47,14 +54,22 @@ Culture in Action: Evaluating Text-to-Image Models through Social Activities
 </h1>
 
 <div class="is-size-5 publication-authors">
-<span class="author-block">Sina Malakouti,</span>
-<span class="author-block">Boqing Gong,</span>
-<span class="author-block">Adriana Kovashka</span>
+<span class="author-block">
+<a href="#">Sina Malakouti</a>,
+</span>
+<span class="author-block">
+<a href="#">Boqing Gong</a>,
+</span>
+<span class="author-block">
+<a href="#">Adriana Kovashka</a>
+</span>
 </div>
 
 <div class="is-size-5 publication-authors">
+<span class="author-block">
 University of Pittsburgh and Boston University<br>
-ICLR 2026
+The Fourteenth International Conference on Learning Representations (ICLR), 2026
+</span>
 </div>
 
 <div class="column has-text-centered">
@@ -110,7 +125,7 @@ class="external-link button is-normal is-rounded is-dark">
 
 <div class="content has-text-justified">
 <p>
-Cultural nuances are best captured through social interactions, yet current text-to-image (T2I) benchmarks focus largely on object-centric artifacts (e.g., food, landmarks, and attire). In this work, we study the cultural faithfulness of T2I models (i.e., adherence to the target culture) through social activities. To this end, we introduce CULTIVate, a new benchmark of 576 activities across 9 categories (e.g., dancing, greeting, dining) with over 19,000 images from 16 countries. We further propose AHEaD, an explainable framework that measures cultural under- standing along four dimensions: cultural Alignment, Hallucination, Exaggeration, and semantical Diversity. Unlike prior work relying on costly human evaluation or image-text alignment (ITA), AHEaD uses culturally-grounded descriptors to provide quantitative, interpretable feedback that enables iterative image refinement. Our analysis shows ITA metrics correlate poorly with human judgments and that alignment alone is insufficient to capture faithfulness. In contrast, FAITH achieves 27%+ higher correlation than baselines by combining alignment, hallucination, and exaggeration. Finally, we observe systematic disparities, with generated images being consistently more faithful for Global North than Global South cultures.  
+Cultural nuances are best captured through social interactions, yet current text-to-image (T2I) benchmarks focus largely on object-centric artifacts (e.g., food, landmarks, and attire). In this work, we study the cultural faithfulness of T2I models through social activities. We introduce CULTIVate and AHEaD to evaluate cultural alignment, hallucination, exaggeration, and diversity.
 </p>
 </div>
 
@@ -119,7 +134,7 @@ Cultural nuances are best captured through social interactions, yet current text
 </div>
 </section>
 
-<!-- INTRO IMAGE ONLY -->
+<!-- ONLY INTRO IMAGE -->
 <section class="section">
 <div class="container is-max-desktop">
 <div class="columns is-centered">
@@ -137,44 +152,36 @@ Overview of CULTIVate benchmark and AHEaD framework.
 
 <!-- COMMENTED: teaser video -->
 <!--
-<section class="hero teaser">
-VIDEO CONTENT HERE
-</section>
--->
-
-<!-- COMMENTED: youtube video -->
-<!--
-<section class="hero is-small is-light">
-VIDEO CONTENT HERE
-</section>
+<section class="hero teaser"> ... </section>
 -->
 
 <!-- COMMENTED: image carousel -->
 <!--
-<section class="hero is-small">
-CAROUSEL CONTENT HERE
-</section>
+<section class="hero is-small"> ... </section>
+-->
+
+<!-- COMMENTED: youtube video -->
+<!--
+<section class="hero is-small is-light"> ... </section>
 -->
 
 <!-- COMMENTED: video carousel -->
 <!--
-<section class="hero is-small">
-VIDEO CAROUSEL CONTENT HERE
-</section>
+<section class="hero is-small"> ... </section>
 -->
 
 <!-- COMMENTED: poster PDF -->
 <!--
-<section class="hero is-small is-light">
-POSTER PDF HERE
-</section>
+<section class="hero is-small is-light"> ... </section>
 -->
 
 <!-- BIBTEX -->
 <section class="section" id="BibTeX">
 <div class="container is-max-desktop content">
 
+<div class="bibtex-header">
 <h2 class="title">BibTeX</h2>
+</div>
 
 <pre><code>@article{YourPaperKey2024,
 title={Culture in Action: Evaluating Text-to-Image Models through Social Activities},
@@ -194,7 +201,7 @@ year={2026}
 <div class="column is-8">
 <div class="content">
 <p>
-Academic project page template.
+This page was built using the Academic Project Page Template.
 </p>
 </div>
 </div>
