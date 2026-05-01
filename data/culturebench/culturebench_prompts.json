@@ -1,0 +1,903 @@
+{
+    "IRAN": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "bow": "two people greeting with bow",
+            "three-kiss": "two people greeting with three-kiss"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Bandari": "people dancing Bandari",
+            "Baba Karam": "people dancing Baba Karam",
+            "Classical Persian dance": "people performing Classical Persian dance",
+            "Lezgi": "people dancing Lezgi",
+            "Kurdish chain dance": "people performing Kurdish chain dance",
+            "Sama-o-raghs": "people performing Sama-o-raghs" 
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Zu": "people playing Zu",
+            "Haft sang": "people playing Haft sang",
+            "Choob bazi": "people playing Choob bazi",
+            "chess": "people playing chess",
+            "backgammon": "people playing backgammon",
+            "Shelem": "people playing Shelem",
+            "soccer": "people playing soccer"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "Nowruz": "people participating in Nowruz",
+            "Sizdah Bedar": "people participating in Sizdah Bedar",
+            "Shab-e Yalda": "people participating in Shab-e Yalda",
+            "Chaharshanbe Suri": "people participating in Chaharshanbe Suri",
+            "Jashn-e Sade": "people participating in Jashn-e Sade",
+            "Eid-e Fetr": "people participating in Eid-e Fetr"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "tazieh": "Tazieh performance",
+            "muharram": "Muharram"
+        }
+    },
+    "NIGERIA": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "prostrating": "person greeting by prostrating",
+            "kneeling": "person greeting by kneeling",
+            "salute": "person greeting with salute"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Shaku Shaku": "people dancing Shaku Shaku",
+            "Zanku": "people dancing Zanku",
+            "Ekombi": "people dancing Ekombi",
+            "Atilogwu": "people dancing Atilogwu",
+            "Bata dance": "people performing Bata dance"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Ayoayo": "people playing Ayoayo",
+            "Ten Ten": "people playing Ten Ten",
+            "Langa": "people playing Langa",
+            "Abula": "people playing Abula",
+            "Dambe": "people playing Dambe",
+            "Suwe (Hopscotch)": "people playing Suwe (Hopscotch)"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "New Year": "people participating in New Year",
+            "New Yam Festival": "people participating in New Yam Festival",
+            "Durbar Festival": "people participating in Durbar Festival",
+            "Calabar Carnival": "people participating in Calabar Carnival",
+            "Felabration": "people participating in Felabration",
+            "Osun-Osogbo Festival": "people participating in Osun-Osogbo Festival",
+            "Eyo Festival": "people participating in Eyo Festival"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "church procession": "church procession",
+            "Egungun masquerade": "Egungun masquerade parade"
+        }
+    },
+    "FRANCE": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "cheek kissing": "two people greeting with cheek kissing",
+            "handshake": "two people greeting with handshake"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "can-can": "people dancing can-can",
+            "valse musette": "people dancing valse musette",
+            "java": "people dancing java"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Pétanque": "people playing Pétanque",
+            "Belote": "people playing Belote",
+            "Tarot": "people playing Tarot",
+            "Mölkky": "people playing Mölkky",
+            "Le Loup-Garou": "people playing Le Loup-Garou",
+            "Video Game": "people playing video game"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "Bastille Day": "people participating in Bastille Day",
+            "Fête de la Musique": "people participating in Fête de la Musique",
+            "Christmas": "people participating in Christmas",
+            "Easter": "people participating in Easter",
+            "Nice Carnival": "people participating in Nice Carnival",
+            "Festival of Lights (Lyon)": "people participating in Festival of Lights in Lyon",
+            "Fête du Citron": "people participating in Fête du Citron"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "Catholic procession": "Catholic church procession",
+            "candlelit church mass": "candlelit church mass"
+        }
+    },
+    "USA": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "hug": "two people greeting with hug"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "line dance": "people performing line dance",
+            "square dance": "people dancing square dance",
+            "hip hop": "people dancing hip hop",
+            "modern dance": "people performing modern dance",
+            "Swing dance": "people dancing Swing dance"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "baseball": "people playing baseball",
+            "cornhole": "people playing cornhole",
+            "video game": "people playing video game",
+            "poker": "people playing poker",
+            "Monopoly": "people playing Monopoly",
+            "Scrabble": "people playing Scrabble",
+            "tag": "people playing tag"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "New Year": "people participating in New Year",
+            "Fourth of July": "people participating in Fourth of July",
+            "Thanksgiving": "people participating in Thanksgiving",
+            "Halloween": "people participating in Halloween",
+            "Mardi Gras": "people participating in Mardi Gras",
+            "Juneteenth": "people participating in Juneteenth",
+            "Easter": "people participating in Easter"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "baptism ceremony": "baptism ceremony",
+            "gospel choir performance": "gospel choir performing"
+        }
+    },
+    "CHINA": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "slight bow": "two people greeting with slight bow"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Dragon Dance": "Dragon Dance performance",
+            "Lion Dance": "Lion Dance performance",
+            "Yangge Dance": "people performing Yangge Dance",
+            "Fan Dance": "people performing Fan Dance",
+            "Ballet": "Ballet performance"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Jianzi": "people playing Jianzi",
+            "Xiangqi (Chinese chess)": "people playing Xiangqi",
+            "Go (Weiqi)": "people playing Go (Weiqi)",
+            "Catch the dragon's tail": "people playing Catch the dragon's tail",
+            "Mahjong": "people playing Mahjong",
+            "Badminton": "people playing Badminton"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "Chinese New Year": "people participating in Chūnjié",
+            "Lantern Festival": "people participating in Lantern Festival",
+            "Dragon Boat Festival": "people participating in Dragon Boat Festival",
+            "Mid-Autumn Festival": "people participating in Mid-Autumn Festival",
+            "Qingming Festival": "people participating in Qingming Festival",
+            "National Day": "people participating in National Day"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "ancestor offering at home altar": "ancestor offering at home altar",
+            "temple incense ceremony": "temple incense ceremony"
+        }
+    },
+    "INDIA": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "namaste": "two people greeting with namaste",
+            "handshake": "two people greeting with handshake",
+            "touching feet": "person greeting by touching elder's feet"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Bollywood dance": "people performing Bollywood dance",
+            "Bhangra": "people dancing Bhangra",
+            "Garba": "people dancing Garba",
+            "Bharatanatyam": "person performing Bharatanatyam",
+            "Kathak": "person performing Kathak",
+            "Kuchipudi": "person performing Kuchipudi"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Carrom": "people playing Carrom",
+            "Ludo": "people playing Ludo",
+            "Kabaddi": "people playing Kabaddi",
+            "Kho-Kho": "people playing Kho-Kho",
+            "Lagori": "people playing Lagori",
+            "Antakshari": "people playing Antakshari"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "Diwali": "people participating in Diwali",
+            "Holi": "people participating in Holi",
+            "Durga Puja": "people participating in Durga Puja",
+            "Navratri": "people participating in Navratri",
+            "Ganesh Chaturthi": "people participating in Ganesh Chaturthi",
+            "Onam": "people participating in Onam",
+            "Pongal": "people participating in Pongal"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "temple aarti": "temple aarti",
+            "Ganesh idol street procession": "Ganesh idol street procession"
+        }
+    },
+    "BRAZIL": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "cheek kissing": "two people greeting with cheek kissing",
+            "hug": "two people greeting with hug"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Samba": "people dancing Samba",
+            "Forró": "people dancing Forró",
+            "Frevo": "people dancing Frevo",
+            "Brazilian Zouk": "couple dancing Brazilian Zouk",
+            "Lambada": "couple dancing Lambada",
+            "Carimbó": "people dancing Carimbó"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Futebol": "people playing futebol",
+            "Betes": "people playing Betes",
+            "Bola de gude": "people playing Bola de gude",
+            "Cinco Marias": "people playing Cinco Marias",
+            "Queimada": "people playing Queimada",
+            "Luta de galo": "people playing Luta de galo"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "Carnival": "people participating in Carnival",
+            "Festa Junina": "people participating in Festa Junina",
+            "New Year (Réveillon)": "people participating in New Year (Réveillon)",
+            "Independence Day": "people participating in Independence Day",
+            "Parintins Folklore Festival": "people participating in Parintins Folklore Festival"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "Candomblé ceremony in white clothing": "Candomblé ceremony in white clothing",
+            "Catholic church procession": "Catholic church procession"
+        }
+    },
+    "INDONESIA": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "salam": "people greeting with salam",
+            "cheek kissing": "people greeting with cheek kissing",
+            "bow": "people greeting with bow"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Legong": "people dancing Legong",
+            "Kecak": "people performing Kecak",
+            "Saman": "people dancing Saman",
+            "Jaipongan": "people dancing Jaipongan",
+            "Bedhaya": "people performing Bedhaya",
+            "Poco-poco": "people dancing Poco-poco" 
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Petak Umpet": "people playing Petak Umpet",
+            "Bentengan": "people playing Bentengan",
+            "Gobak Sodor": "people playing Gobak Sodor",
+            "Kucing-kucingan": "people playing Kucing-kucingan",
+            "Congklak": "people playing Congklak",
+            "Elephant ant man": "people playing Elephant ant man"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "New Year": "people participating in New Year",
+            "Independence Day": "people participating in Independence Day",
+            "Nyepi": "people participating in Nyepi",
+            "Eid al-Fitr": "people participating in Eid al-Fitr",
+            "Waisak (Buddha Day)": "people participating in Waisak (Buddha Day)",
+            "Galungan": "people participating in Galungan",
+            "Pasola": "people participating in Pasola",
+            "Tabuik": "people participating in Tabuik"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "Balinese temple offering with flowers": "Balinese temple offering with flowers",
+            "Eid communal prayer in mosque courtyard": "Eid communal prayer in mosque courtyard"
+        }
+    },
+    "TURKEY": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "cheek kiss": "two people greeting with cheek kiss",
+            "hand over heart": "person greeting with hand over heart",
+            "elder hand-kiss": "person greeting by kissing elder's hand"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Halay": "people dancing Halay",
+            "Zeybek": "people dancing Zeybek",
+            "Horon": "people dancing Horon",
+            "Bar": "people dancing Bar",
+            "Spoon Dance": "people performing Spoon Dance",
+            "Dervish dance": "people performing Dervish dance"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Okey": "people playing Okey",
+            "Tavla": "people playing Tavla",
+            "Soccer": "people playing soccer",
+            "Mangala": "people playing Mangala",
+            "Seven Stones": "people playing Seven Stones"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "New Year": "people participating in New Year",
+            "Republic Day": "people participating in Republic Day",
+            "Ramadan Bayram": "people participating in Ramadan Bayram",
+            "Hıdırellez": "people participating in Hıdırellez",
+            "Oil Wrestling": "people participating in Oil Wrestling"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "Cemevi ritual": "Cemevi ritual",
+            "praying": "people praying",
+            "Friday prayer": "Friday prayer"
+            
+        }
+    },
+    "NEPAL": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "Namaste": "two people greeting with Namaste",
+            "handshake": "two people greeting with handshake",
+            "touching feet": "person greeting by touching elder's feet"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Lakhey dance": "people performing Lakhey dance",
+            "Maruni dance": "people dancing Maruni dance",
+            "Deuda dance": "people dancing Deuda dance",
+            "Sakela dance": "people dancing Sakela dance",
+            "Jhijhiya dance": "people dancing Jhijhiya dance",
+            "Peacock dance": "people performing Peacock dance"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Dandi Biyo": "people playing Dandi Biyo",
+            "Bagh-chal": "people playing Bagh-chal",
+            "Chungi": "people playing Chungi",
+            "Kabaddi": "people playing Kabaddi",
+            "Seven Stones": "people playing Seven Stones"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral "
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "Nepali New Year": "people participating in Nepali New Year",
+            "Dashain": "people participating in Dashain",
+            "Tihar": "people participating in Tihar",
+            "Holi": "people participating in Holi",
+            "Indra Jatra": "people participating in Indra Jatra",
+            "Gai Jatra": "people participating in Gai Jatra"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "Pashupatinath puja": "Pashupatinath puja",
+            "praying": "people praying",
+            "Buddha Jayanti": "people participating in Buddha Jayanti"
+        }
+    },
+    "SPAIN": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "kiss on cheeks": "two people greeting with kiss on cheeks",
+            "hug": "two people greeting with hug"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "flamenco": "people performing flamenco",
+            "sevillanas": "people dancing sevillanas",
+            "sardana": "people dancing sardana",
+            "jota": "people dancing jota",
+            "fandango": "people dancing fandango"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "mus": "people playing mus",
+            "tute": "people playing tute",
+            "parchis": "people playing parchis",
+            "brisca": "people playing brisca",
+            "basque pelota": "people playing basque pelota"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "new year": "people participating in New Year",
+            "semana santa": "people participating in Semana Santa",
+            "la tomatina": "people participating in La Tomatina",
+            "las fallas": "people participating in Las Fallas",
+            "san fermin": "people participating in San Fermin"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "pilgrimage to santiago": "pilgrimage to Santiago",
+            "praying": "people praying",
+            "catholic mass": "Catholic mass"
+            
+        }
+    },
+    "ITALY": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "kiss on cheeks": "two people greeting with kiss on cheeks",
+            "hug": "two people greeting with hug"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "tarantella": "people dancing tarantella",
+            "pizzica": "people dancing pizzica",
+            "saltarello": "people dancing saltarello",
+            "tammurriata": "people dancing tammurriata",
+            "furlana": "people dancing furlana"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "bocce": "people playing bocce",
+            "scopa": "people playing scopa",
+            "briscola": "people playing briscola",
+            "morra": "people playing morra",
+            "tamburello": "people playing tamburello"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "new year": "people participating in New Year",
+            "carnevale di venezia": "people participating in Carnevale di Venezia",
+            "palio di siena": "people participating in Palio di Siena",
+            "calcio storico fiorentino": "people participating in Calcio Storico Fiorentino",
+            "la notte della taranta": "people participating in La Notte della Taranta"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "pilgrimage to assisi": "pilgrimage to Assisi",
+            "praying": "people praying",
+            "catholic mass": "Catholic mass"
+        }
+    },
+    "GERMANY": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "hug": "two people greeting with hug",
+            "wave": "person greeting with wave"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Schuhplattler": "people dancing Schuhplattler",
+            "Polka": "people dancing Polka",
+            "Zwiefacher": "people dancing Zwiefacher",
+            "Ländler": "people dancing Ländler"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Skat": "people playing Skat",
+            "Schafkopf": "people playing Schafkopf",
+            "Mensch ärgere Dich nicht": "people playing Mensch ärgere Dich nicht",
+            "Mühle": "people playing Mühle",
+            "Doppelkopf": "people playing Doppelkopf"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "New Year": "people participating in New Year",
+            "Oktoberfest": "people participating in Oktoberfest",
+            "Christmas": "people participating in Christmas",
+            "Karneval (Cologne)": "people participating in Karneval (Cologne)",
+            "Unity Day": "people participating in Unity Day"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "praying": "people praying",
+            "church service": "church service",
+            "Christmas Eve mass": "Christmas Eve mass"
+        }
+    },
+    "PHILIPPINES": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "beso-beso": "two people greeting with beso-beso",
+            "mano": "person greeting with mano",
+            "hug": "two people greeting with hug"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Tinikling": "people performing Tinikling",
+            "Cariñosa": "people dancing Cariñosa",
+            "Singkil": "people performing Singkil",
+            "Maglalatik": "people performing Maglalatik",
+            "Itik-itik": "people dancing Itik-itik",
+            "Pangalay": "people performing Pangalay"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Patintero": "people playing Patintero",
+            "Tumbang preso": "people playing Tumbang preso",
+            "Sipa": "people playing Sipa",
+            "Sungka": "people playing Sungka",
+            "Luksong tinik": "people playing Luksong tinik"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "New Year": "people participating in New Year",
+            "Ati-Atihan": "people participating in Ati-Atihan",
+            "Sinulog": "people participating in Sinulog",
+            "MassKara": "people participating in MassKara",
+            "Panagbenga": "people participating in Panagbenga",
+            "Pahiyas": "people participating in Pahiyas"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "Santo Niño procession": "Santo Niño procession",
+            "praying": "people praying",
+            "Fiesta mass": "Fiesta mass"
+        }
+    },
+    "SOUTH_AFRICA": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "two-handed handshake": "two people greeting with two-handed handshake",
+            "hug": "two people greeting with hug",
+            "kiss": "two people greeting with kiss",
+            "smile and nod": "person greeting with smile and nod"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "gumboot dance": "people performing gumboot dance",
+            "toyi-toyi": "people dancing toyi-toyi",
+            "indlamu": "people dancing indlamu",
+            "pantsula": "people dancing pantsula",
+            "amapiano dance": "people dancing amapiano dance"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "jukskei": "people playing jukskei",
+            "morabaraba": "people playing morabaraba",
+            "dibeke": "people playing dibeke",
+            "drie stokkies": "people playing drie stokkies",
+            "bok-bok": "people playing bok-bok"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "new year": "people participating in New Year",
+            "freedom day": "people participating in Freedom Day",
+            "heritage day": "people participating in Heritage Day",
+            "cape town minstrel carnival": "people participating in Cape Town Minstrel Carnival",
+            "cape town jazz festival": "people participating in Cape Town Jazz Festival",
+            "national arts festival": "people participating in National Arts Festival"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "sangoma ritual": "sangoma ritual",
+            "praying": "people praying",
+            "zion christian church gathering": "Zion Christian Church gathering"
+            
+        }
+    },
+    "MEXICO": {
+        "eating": {
+            "eating": "people eating food",
+            "home": "people eating food at home",
+            "restaurant": "people eating food in restaurant"
+        },
+        "greeting": {
+            "greeting": "people greeting",
+            "handshake": "two people greeting with handshake",
+            "abrazo": "two people greeting with abrazo",
+            "kiss on the cheek": "two people greeting with kiss on the cheek"
+        },
+        "dancing": {
+            "dancing": "people dancing",
+            "Danza de los Viejitos": "people performing Danza de los Viejitos",
+            "Jarabe Tapatío": "people dancing Jarabe Tapatío",
+            "Concheros": "people performing Concheros",
+            "Son Jarocho": "people performing Son Jarocho"
+        },
+        "concert": {
+            "concert": "concert",
+            "indoor": "indoor concert",
+            "outdoor": "outdoor concert"
+        },
+        "game": {
+            "game": "people playing game",
+            "Ulama": "people playing Ulama",
+            "Lotería": "people playing Lotería",
+            "Pelota mixteca": "people playing Pelota mixteca",
+            "Pelota purépecha": "people playing Pelota purépecha",
+            "Dominoes": "people playing dominoes"
+        },
+        "funeral": {
+            "funeral": "people attending a funeral"
+        },
+        "wedding": {
+            "wedding": "wedding celebration"
+        },
+        "celebration": {
+            "celebration": "people participating in a traditional festival or observance",
+            "New Year": "people participating in New Year",
+            "Día de los Muertos": "people participating in Día de los Muertos",
+            "Independence Day": "people participating in Independence Day",
+            "Las Posadas": "people participating in Las Posadas",
+            "Guelaguetza": "people participating in Guelaguetza",
+            "Day of the Virgin of Guadalupe": "people participating in Day of the Virgin of Guadalupe"
+        },
+        "religious": {
+            "religious": "people participating in a traditional religious event",
+            "pilgrimage to Basilica of Guadalupe": "pilgrimage to Basilica of Guadalupe",
+            "praying": "people praying",
+            "Catholic mass": "Catholic mass"
+            
+        }
+    }
+}
+    

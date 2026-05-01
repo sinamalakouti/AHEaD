@@ -1,0 +1,301 @@
+{
+  "IRAN": {
+    "eating": ["home", "restaurant"],
+    "greeting": ["handshake", "bow", "three-kiss"],
+    "dancing": ["Bandari", "Baba Karam", "Classical Persian dance", "Lezgi", "Kurdish chain dance", "Sama-o-raghs"],
+    "concert": ["indoor", "outdoor"],
+    "game": ["Zu", "Haft sang", "Choob bazi", "chess", "backgammon", "Shelem", "soccer"],
+    "funeral": ["funeral"],
+    "wedding": ["wedding"],
+    "celebration": ["Nowruz", "Sizdah Bedar", "Shab-e Yalda", "Chaharshanbe Suri", "Jashn-e Sade", "Eid-e Fetr"],
+    "religious": ["praying", "tazieh", "muharram"]
+    },
+  "NIGERIA": {
+    "eating": ["home", "restaurant"],
+    "greeting": ["handshake", "prostrating", "kneeling", "salute"],
+    "dancing": ["Shaku Shaku", "Zanku", "Ekombi", "Atilogwu", "Bata dance"],
+    "concert": ["indoor", "outdoor"],
+    "game": ["Ayoayo", "Ten Ten", "Langa", "Abula", "Dambe", "Suwe (Hopscotch)"],
+    "funeral": ["funeral"],
+    "wedding": ["wedding"],
+    "celebration": ["New Year", "New Yam Festival", "Durbar Festival", "Calabar Carnival", "Felabration", "Osun-Osogbo Festival", "Eyo Festival"],
+    "religious": ["praying", "church procession", "Egungun masquerade"]
+  },
+  "FRANCE": {
+    "eating": ["home", "restaurant"],
+    "greeting": ["cheek kissing", "handshake"],
+    "dancing": ["can-can", "valse musette", "java"],
+    "concert": ["indoor", "outdoor"],
+    "game": ["Pétanque", "Belote", "Tarot", "Mölkky", "Le Loup-Garou", "Video Game"],
+    "funeral": ["funeral"],
+    "wedding": ["wedding"],
+    "celebration": ["Bastille Day", "Fête de la Musique", "Christmas", "Easter", "Nice Carnival", "Festival of Lights (Lyon)", "Fête du Citron"],
+    "religious": ["praying", "Catholic procession", "candlelit church mass"]
+  },
+  "USA": {
+    "eating": ["home", "restaurant"],
+    "greeting": ["handshake", "hug"],
+    "dancing": ["line dance", "square dance", "hip hop", "modern dance", "Swing dance"],
+    "concert": ["indoor", "outdoor"],
+    "game": ["baseball", "cornhole", "video game", "poker", "Monopoly", "Scrabble", "tag"],
+    "funeral": ["funeral"],
+    "wedding": ["wedding"],
+    "celebration": ["New Year", "Fourth of July", "Thanksgiving", "Halloween", "Mardi Gras", "Juneteenth", "Easter"],
+    "religious": ["praying", "baptism ceremony", "gospel choir performance"]
+  },
+  "CHINA": {
+    "eating": ["home", "restaurant"],
+    "greeting": ["handshake", "slight bow"],
+    "dancing": ["Dragon Dance", "Lion Dance", "Yangge Dance", "Fan Dance", "Ballet"],
+    "concert": ["indoor", "outdoor"],
+    "game": ["Jianzi", "Xiangqi (Chinese chess)", "Go (Weiqi)", "Catch the dragon's tail", "Mahjong", "Badminton"],
+    "funeral": ["funeral"],
+    "wedding": ["wedding"],
+    "celebration": ["Chinese New Year", "Lantern Festival", "Dragon Boat Festival", "Mid-Autumn Festival", "Qingming Festival", "National Day"],
+    "religious": ["praying", "ancestor offering at home altar", "temple incense ceremony"]
+  },
+  "INDIA": {
+    "eating": ["home", "restaurant"],
+    "greeting": ["namaste", "handshake", "touching feet"],
+    "dancing": ["Bollywood dance", "Bhangra", "Garba", "Bharatanatyam", "Kathak", "Kuchipudi"],
+    "concert": ["indoor", "outdoor"],
+    "game": ["Carrom", "Ludo", "Kabaddi", "Kho-Kho", "Lagori", "Antakshari"],
+    "funeral": ["funeral"],
+    "wedding": ["wedding"],
+    "celebration": ["Diwali", "Holi", "Durga Puja", "Navratri", "Ganesh Chaturthi", "Onam", "Pongal"],
+    "religious": ["praying", "temple aarti", "Ganesh idol street procession"]
+  },
+  "BRAZIL": {
+    "eating": ["home", "restaurant"],
+    "greeting": ["handshake", "cheek kissing", "hug"],
+    "dancing": ["Samba", "Forró", "Frevo", "Brazilian Zouk", "Lambada", "Carimbó"],
+    "concert": ["indoor", "outdoor"],
+    "game": ["Futebol", "Betes", "Bola de gude", "Cinco Marias", "Queimada", "Luta de galo"],
+    "funeral": ["funeral"],
+    "wedding": ["wedding"],
+    "celebration": ["Carnival", "Festa Junina", "New Year (Réveillon)", "Independence Day", "Parintins Folklore Festival"],
+    "religious": ["praying", "Candomblé ceremony in white clothing", "Catholic church procession"]
+  },
+  "INDONESIA": {
+    "eating": ["home", "restaurant"],
+    "greeting": ["salam", "cheek kissing", "bow"],
+    "dancing": ["Legong", "Kecak", "Saman", "Jaipongan", "Bedhaya", "Poco-poco"],
+    "concert": ["indoor", "outdoor"],
+    "game": ["Petak Umpet", "Bentengan", "Gobak Sodor", "Kucing-kucingan", "Congklak", "Elephant ant man"],
+    "funeral": ["funeral"],
+    "wedding": ["wedding"],
+    "celebration": ["New Year", "Independence Day", "Nyepi", "Eid al-Fitr", "Waisak (Buddha Day)", "Galungan", "Pasola", "Tabuik"],
+    "religious": ["praying", "Balinese temple offering with flowers", "Eid communal prayer in mosque courtyard"]
+  },
+   "TURKEY": {
+  "eating": ["home", "restaurant"],
+  "greeting": [
+    "handshake",
+    "cheek kiss",
+    "hand over heart",
+    "elder hand-kiss"
+  ],
+  "dancing": [
+    "Halay",
+    "Zeybek",
+    "Horon",
+    "Bar",
+    "Spoon Dance",
+    "Dervish dance"
+  ],
+  "concert": ["indoor", "outdoor"],
+  "game": [
+    "Okey",
+    "Tavla",
+    "Soccer",
+    "Mangala",
+    "Seven Stones"
+  ],
+  "funeral": ["funeral"],
+  "wedding": ["wedding"],
+  "celebration": [
+    "New Year",
+    "Republic Day",
+    "Ramadan Bayram",
+    "Hıdırellez",
+    "Oil Wrestling"
+  ],
+  "religious": [
+    "praying",
+    "Cemevi ritual",
+    "Friday prayer"
+    
+  ]
+},
+  "NEPAL": {
+  "eating": ["home", "restaurant"],
+  "greeting": [
+    "Namaste",
+    "handshake",
+    "touching feet"
+  ],
+  "dancing": [
+    "Lakhey dance",
+    "Maruni dance",
+    "Deuda dance",
+    "Sakela dance",
+    "Jhijhiya dance",
+    "Peacock dance"
+  ],
+  "concert": ["indoor", "outdoor"],
+  "game": [
+    "Dandi Biyo",
+    "Bagh-chal",
+    "Chungi",
+    "Kabaddi",
+    "Seven Stones"
+  ],
+  "funeral": ["funeral"],
+  "wedding": ["wedding"],
+  "celebration": [
+    "Nepali New Year",
+    "Dashain",
+    "Tihar",
+    "Holi",
+    "Indra Jatra",
+    "Gai Jatra"
+  ],
+  "religious": [
+    "Pashupatinath puja",
+    "praying",
+    "Buddha Jayanti"
+  ]
+},
+"SPAIN": {
+  "eating": ["home", "restaurant"],
+  "greeting": ["handshake", "kiss on cheeks", "hug"],
+  "concert": ["indoor", "outdoor"],
+  "dancing": ["flamenco", "sevillanas", "sardana", "jota", "fandango"],
+  "game": ["mus", "tute", "parchis", "brisca", "basque pelota"],
+  "funeral": ["funeral"],
+  "wedding": ["wedding"],
+  "celebration": ["new year", "semana santa", "la tomatina", "las fallas", "san fermin"],
+  "religious": ["pilgrimage to santiago", "praying", "catholic mass"]
+  
+},
+  
+  "ITALY": {
+  "eating": ["home", "restaurant"],
+  "wedding": ["wedding"],
+  "funeral": ["funeral"],
+  "concert": ["indoor", "outdoor"],
+  "greeting": ["handshake", "kiss on cheeks", "hug"],
+  "celebration": ["new year", "carnevale di venezia", "palio di siena", "calcio storico fiorentino", "la notte della taranta"],
+  "religious": ["praying", "catholic mass", "pilgrimage to assisi"],
+  "game": ["bocce", "scopa", "briscola", "morra", "tamburello"],
+  "dancing": ["tarantella", "pizzica", "saltarello", "tammurriata", "furlana"]
+},
+"GERMANY": {
+  "eating": ["home", "restaurant"],
+  "greeting": ["handshake", "hug", "wave"],
+  "dancing": ["Schuhplattler", "Polka", "Zwiefacher", "Ländler"],
+  "concert": ["indoor", "outdoor"],
+  "game": ["Skat", "Schafkopf", "Mensch ärgere Dich nicht", "Mühle", "Doppelkopf"],
+  "funeral": ["funeral"],
+  "wedding": ["wedding"],
+  "celebration": ["New Year", "Oktoberfest", "Christmas", "Karneval (Cologne)", "Unity Day"],
+  "religious": ["praying", "church service", "Christmas Eve mass"]
+},
+  "PHILIPPINES": {
+  "eating": ["home", "restaurant"],
+  "greeting": [
+    "handshake",
+    "beso-beso",
+    "mano",
+    "hug"
+  ],
+  "dancing": [
+    "Tinikling",
+    "Cariñosa",
+    "Singkil",
+    "Maglalatik",
+    "Itik-itik",
+    "Pangalay"
+  ],
+  "concert": ["indoor", "outdoor"],
+  "game": [
+    "Patintero",
+    "Tumbang preso",
+    "Sipa",
+    "Sungka",
+    "Luksong tinik"
+  ],
+  "funeral": ["funeral"],
+  "wedding": ["wedding"],
+  "celebration": [
+    "New Year",
+    "Ati-Atihan",
+    "Sinulog",
+    "MassKara",
+    "Panagbenga",
+    "Pahiyas"
+  ],
+  "religious": [
+    "praying",
+    "Santo Niño procession",
+    "Fiesta mass"
+  ]
+},
+"SOUTH_AFRICA": {
+  "greeting": [
+    "handshake",
+    "two-handed handshake",
+    "hug",
+    "kiss",
+    "smile and nod"
+  ],
+  "eating": [
+    "home",
+    "restaurant"
+  ],
+  "concert": ["indoor", "outdoor"],
+  "wedding": ["wedding"],  
+  "funeral": ["funeral"],
+  "celebration": [
+    "new year",
+    "freedom day",
+    "heritage day",
+    "cape town minstrel carnival",
+    "cape town jazz festival",
+    "national arts festival"
+  ],
+  "religious": [
+    "praying",
+    "sangoma ritual",
+    "zion christian church gathering"
+    
+  ],
+  "game": [
+    "jukskei",
+    "morabaraba",
+    "dibeke",
+    "drie stokkies",
+    "bok-bok"
+  ],
+  "dancing": [
+    "gumboot dance",
+    "toyi-toyi",
+    "indlamu",
+    "pantsula",
+    "amapiano dance"
+  ]
+},
+  "MEXICO": {
+  "eating": ["home", "restaurant"],
+  "greeting": ["handshake", "abrazo", "kiss on the cheek"],
+  "dancing": ["Danza de los Viejitos", "Jarabe Tapatío",  "Concheros", "Son Jarocho"],
+  "concert": ["indoor", "outdoor"],
+  "game": ["Ulama", "Lotería", "Pelota mixteca", "Pelota purépecha", "Dominoes"],
+  "funeral": ["funeral"],
+  "wedding": ["wedding"],
+  "celebration": ["New Year", "Día de los Muertos", "Independence Day", "Las Posadas", "Guelaguetza", "Day of the Virgin of Guadalupe"],
+  "religious": ["pilgrimage to Basilica of Guadalupe", "praying", "Catholic mass"]
+}
+}
+
+
