@@ -2,8 +2,6 @@
 
 > [Sina Malakouti](https://sinamalakouti.github.io/), [Boqing Gong](https://boqinggong.github.io/), [Adriana Kovahka](https://people.cs.pitt.edu/~kovashka/)
 
-> Stay tuned, coming soon!
-
 ## Install
 
 ```bash
