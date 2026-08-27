@@ -106,13 +106,9 @@ refs = LLMDescriptorRefiner().refine(
 
 | Metric | Modes |
 |---|---|
-| **ALIGN** | `single-image` (default, N scores) / `multi-image` (1 pooled) |
-| **HAL** | same |
-| **EXAG** | same (needs ITA scorer) |
+| **ALIGN**  * **HAL** | `single-image` (default, N scores) / `multi-image`|
+| **EXAG** | uses VQAScore as ITA by default, single image|
 | **DDIV** / **SDIV** | `multi-image` only |
-
-`preds` / `images`: always lists (one entry per image).  
-`refs`: length-N list in single mode; one descriptor set in multi mode.
 
 ### ALIGN / HAL / DDIV / SDIV
 
@@ -123,23 +119,22 @@ preds = [
     {"objects": ["clay diya", "rangoli"], "attire": ["silk saree"]},
     {"objects": ["oil lamp"], "attire": ["kurta"]},
 ]
-refs_list = [refs, refs]   # one refs set per image (single-image)
 refs = {"objects": ["diya", "rangoli"], "attire": ["saree", "kurta"]}
 
 m = AheadMetrics(matcher="embedding", threshold=0.52)
 
-align_scores = m.align.score(preds=preds, refs=refs_list)          # list
+align_scores = m.align.score(preds=preds, refs=refs_list)         
 hal_scores = m.hal.score(preds=preds, refs=refs_list)
 
-pooled = m.align.score(preds=preds, refs=refs, mode="multi-image")  # one MetricResult
+pooled = m.align.score(preds=preds, refs=refs, mode="multi-image") 
 print(pooled.value, pooled.per_descriptor)
 
 print(m.ddiv.score(preds=preds, refs=refs).value)
 print(m.sdiv.score(preds=preds, refs=refs).value)
 
-print(m.align.rank(pooled, k=3))   # higher ALIGN first
+print(m.align.rank(pooled, k=3))  
 hal = m.hal.score(preds=preds, refs=refs, mode="multi-image")
-print(m.hal.rank(hal, k=3))        # higher HAL = 1 - soft_sim
+print(m.hal.rank(hal, k=3))     
 ```
 
 Extract descriptors from images:
