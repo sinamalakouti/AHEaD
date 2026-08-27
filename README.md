@@ -62,8 +62,8 @@ python scripts/generate_benchmark.py \
 
 ## 2. Proposer–refiner
 Default:
-- Proposers: `gemini-2.5-flash` and `gpt-4o'
-- Refiners: `gpt-4o'
+- Proposers: `gemini-2.5-flash` and `gpt-4o`
+- Refiners: `gpt-4o`
 
 ```python
 from ahead.proposer_refiner import ProposerRefiner
