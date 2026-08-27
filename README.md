@@ -180,9 +180,3 @@ judge = MLLMJudge(mllm="gpt-4o")
 print(judge.evaluate("/path/to/image.png", concept="wedding", context="INDIA"))
 # {"align": ..., "hal": ..., "exag": ...}
 ```
-
----
-
-## Extending
-
-Register T2I / matcher / MLLM without editing core code — see [CONTRIBUTING.md](CONTRIBUTING.md).
