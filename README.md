@@ -15,17 +15,11 @@ pip install -e .
 
 Auth is env-only: `OPENAI_API_KEY`, `GOOGLE_API_KEY` (or `GEMINI_API_KEY`).
 
-The `ahead` package has three pieces, used separately:
+This repository consists of three main sections: 
 
 1. **cultivatebench** — generate CULTIVate images from CultureBench prompts
 2. **proposer_refiner** — reference descriptors (propose → union → refine)
 3. **metrics** — ALIGN, HAL, EXAG, DDIV, SDIV
-
-```python
-import ahead.cultivatebench as cultivatebench
-import ahead.proposer_refiner as proposer_refiner
-import ahead.metrics as ahead_metrics
-```
 
 ---
 
