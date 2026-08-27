@@ -28,8 +28,8 @@ This repository consists of three main sections:
 Catalog: [data/culturebench](https://github.com/sinamalakouti/AHEaD/tree/master/data/culturebench)  
 (`culturebench_prompts.json`). Prompt template: `A photorealistic photo of {phrase} in {country}.`
 
-Public models (`stable-diffusion-3.5-medium`, `FLUX.1-dev`, `Qwen-Image`): 10 images, seed `42+i`.  
-Proprietary (`dall-e-3`, `gpt-image-1`, `gemini-2.5-flash-image-preview`): 1 image.
+Public models: `stable-diffusion-3.5-medium`, `FLUX.1-dev`, `Qwen-Image` (distilled version)
+Proprietary: `dall-e-3`, `gpt-image-1`, `gemini-2.5-flash-image-preview`)
 
 ### Python
 
@@ -61,13 +61,9 @@ python scripts/generate_benchmark.py \
 ---
 
 ## 2. Proposer–refiner
-
-Default: **gemini-2.5-flash + gpt-4o** propose, union, **gpt-4o** refine.
-
-```bash
-export OPENAI_API_KEY=...
-export GOOGLE_API_KEY=...
-```
+Default:
+- Proposers: `gemini-2.5-flash` and `gpt-4o'
+- Refiners: `gpt-4o'
 
 ```python
 from ahead.proposer_refiner import ProposerRefiner
