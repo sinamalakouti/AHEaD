@@ -2,8 +2,25 @@
 
 > [Sina Malakouti](https://sinamalakouti.github.io/), [Boqing Gong](https://boqinggong.github.io/), [Adriana Kovahka](https://people.cs.pitt.edu/~kovashka/)
 
+[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://sinamalakouti.github.io/AHEaD/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-CultiVATE-ffcc00)](https://huggingface.co/datasets/sinamalakouti/CultiVATE)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-CultiVATE--real-ffcc00)](https://huggingface.co/datasets/sinamalakouti/CultiVATE-real)
 
 Note: this repo is under development to provide the tools that is easy to use by other researchers across different applications, please reach out to [Sina Malakouti](https://sinamalakouti.github.io/) if you have any questions or concern regarding this repo!
+
+## Datasets
+
+🤗 **Hugging Face**
+
+- Generated images (T2I models): [`sinamalakouti/CultiVATE`](https://huggingface.co/datasets/sinamalakouti/CultiVATE)
+- Real images (top-5) for the EXAG (exaggeration) metric: [`sinamalakouti/CultiVATE-real`](https://huggingface.co/datasets/sinamalakouti/CultiVATE-real) (access requires approval)
+
+```python
+from datasets import load_dataset
+
+gen = load_dataset("sinamalakouti/CultiVATE", "generated", split="test")
+real = load_dataset("sinamalakouti/CultiVATE-real", "real", split="test")
+```
 
 ## Install
 
