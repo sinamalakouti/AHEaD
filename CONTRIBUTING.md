@@ -1,4 +1,4 @@
-# Contributing / extending AHEAD
+# Customizing AHEAD
 
 Registries let you add backends without touching metric code.
 
