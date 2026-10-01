@@ -3,12 +3,36 @@
 > [Sina Malakouti](https://sinamalakouti.github.io/), [Boqing Gong](https://boqinggong.github.io/), [Adriana Kovahka](https://people.cs.pitt.edu/~kovashka/)
 
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://sinamalakouti.github.io/AHEaD/)
+[![arXiv](https://img.shields.io/badge/arXiv-2511.05681-b31b1b.svg)](https://arxiv.org/abs/2511.05681)
+[![ICLR 2026](https://img.shields.io/badge/ICLR-2026-8A2BE2)](https://proceedings.iclr.cc/paper_files/paper/2026/file/dca63f2650fe9e88956c1b68440b8ee9-Paper-Conference.pdf)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-CultiVATE-ffcc00)](https://huggingface.co/datasets/sinamalakouti/CultiVATE)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-CultiVATE--real-ffcc00)](https://huggingface.co/datasets/sinamalakouti/CultiVATE-real)
 
 Note: this repo is under development to provide the tools that is easy to use by other researchers across different applications, please reach out to [Sina Malakouti](https://sinamalakouti.github.io/) if you have any questions or concern regarding this repo!
 
-## Datasets
+## 📋 Overview
+
+Text-to-image (T2I) models can generate highly realistic images, yet their ability to faithfully represent diverse cultural contexts remains limited. Existing cultural benchmarks primarily focus on object-centric concepts such as food, attire, and architecture, while overlooking social and everyday activities that more directly reflect cultural norms.
+
+To address this gap, we introduce **CULTIVate**, a benchmark for evaluating cultural representation in T2I models through **cross-cultural social activities**, including greetings, dining, games, traditional dances, and cultural celebrations. CULTIVate spans **16 countries**, **576 prompts**, and **19K+ generated images**, enabling systematic evaluation of cultural representation across a diverse set of geographic and social contexts.
+
+CULTIVate is accompanied by an **explainable descriptor-based evaluation framework** that represents cultural expectations across multiple dimensions, including **background, attire, objects, and interactions**. Reference descriptors are generated using a proposer–refiner pipeline and are used to analyze the cultural content present in generated images.
+
+We introduce complementary metrics for evaluating different aspects of cultural representation:
+
+- **ALIGN** measures whether culturally expected elements are correctly represented in generated images.
+- **HAL** measures culturally inconsistent or hallucinated elements that are not supported by the reference cultural descriptors.
+- **EXAG** measures whether stereotypical cultural elements are exaggerated relative to real-world reference images.
+- **DDIV** evaluates diversity with respect to culturally relevant descriptors across a set of generated images.
+- **SDIV** measures semantic diversity across multiple generations.
+
+Together, **CULTIVate and its evaluation metrics provide a unified framework for studying cultural alignment, hallucination, stereotype exaggeration, and diversity in modern text-to-image systems**.
+
+<p align="center">
+  <img src="static/images/intro.png" width="100%">
+</p>
+
+## Datasets & Code Release
 
 🤗 **Hugging Face**
 
